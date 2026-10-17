@@ -1,0 +1,188 @@
+{
+  "baseline_distilbert": {
+    "all": {
+      "n_texts": 1737,
+      "n_users": 91,
+      "valence": {
+        "r_within": 0.590955507623925,
+        "r_between": 0.6911695836512401,
+        "r_composite": 0.6438149835126573,
+        "n_users_within": 81,
+        "r_flat": 0.6643587566887024,
+        "mae": 0.7677479562632178
+      },
+      "arousal": {
+        "r_within": 0.41460499959903874,
+        "r_between": 0.45344912321277053,
+        "r_composite": 0.4342288995541042,
+        "n_users_within": 82,
+        "r_flat": 0.5368663473187866,
+        "mae": 0.5152213736772365
+      }
+    },
+    "seen_users": {
+      "n_texts": 692,
+      "n_users": 46,
+      "valence": {
+        "r_within": 0.5785193002964061,
+        "r_between": 0.7343249132832044,
+        "r_composite": 0.6635568251024707,
+        "n_users_within": 38,
+        "r_flat": 0.7176048616500739,
+        "mae": 0.7890003166226078
+      },
+      "arousal": {
+        "r_within": 0.3283473282630434,
+        "r_between": 0.3367513644655776,
+        "r_composite": 0.3325559484197518,
+        "n_users_within": 38,
+        "r_flat": 0.4306715382703096,
+        "mae": 0.5350960117867055
+      }
+    },
+    "unseen_users": {
+      "n_texts": 1045,
+      "n_users": 45,
+      "valence": {
+        "r_within": 0.6019456443319647,
+        "r_between": 0.6520567082807496,
+        "r_composite": 0.6276508895219047,
+        "n_users_within": 43,
+        "r_flat": 0.6177583779146976,
+        "mae": 0.7536746228960427
+      },
+      "arousal": {
+        "r_within": 0.4891002612073984,
+        "r_between": 0.6586697257945753,
+        "r_composite": 0.5801366530785121,
+        "n_users_within": 44,
+        "r_flat": 0.578540496872545,
+        "mae": 0.5020603693023538
+      }
+    }
+  },
+  "lstm_history_autoregressive": {
+    "all": {
+      "n_texts": 1737,
+      "n_users": 91,
+      "valence": {
+        "r_within": 0.5867988092477585,
+        "r_between": 0.7324165763956045,
+        "r_composite": 0.6659027300291406,
+        "n_users_within": 81,
+        "r_flat": 0.678055506961551,
+        "mae": 0.7522606227930826
+      },
+      "arousal": {
+        "r_within": 0.41005679997839795,
+        "r_between": 0.47615200499465643,
+        "r_composite": 0.4437075863190686,
+        "n_users_within": 82,
+        "r_flat": 0.5272948330194027,
+        "mae": 0.510581707951297
+      }
+    },
+    "seen_users": {
+      "n_texts": 692,
+      "n_users": 46,
+      "valence": {
+        "r_within": 0.5840286845686768,
+        "r_between": 0.7678106600201738,
+        "r_composite": 0.6867420466129597,
+        "n_users_within": 38,
+        "r_flat": 0.7359782199762295,
+        "mae": 0.7496556853283347
+      },
+      "arousal": {
+        "r_within": 0.3167958072393336,
+        "r_between": 0.3826395941093036,
+        "r_composite": 0.3501501686126026,
+        "n_users_within": 38,
+        "r_flat": 0.4330793623216025,
+        "mae": 0.5132085751806725
+      }
+    },
+    "unseen_users": {
+      "n_texts": 1045,
+      "n_users": 45,
+      "valence": {
+        "r_within": 0.5892468264060167,
+        "r_between": 0.6952904536810391,
+        "r_composite": 0.6453674056470561,
+        "n_users_within": 43,
+        "r_flat": 0.6253441926603678,
+        "mae": 0.7539856148750018
+      },
+      "arousal": {
+        "r_within": 0.49060038461668065,
+        "r_between": 0.5998387090635033,
+        "r_composite": 0.5475482052854362,
+        "n_users_within": 44,
+        "r_flat": 0.5577507955138543,
+        "mae": 0.5088421939582559
+      }
+    }
+  },
+  "lstm_history_teacher_forcing": {
+    "all": {
+      "n_texts": 1737,
+      "n_users": 91,
+      "valence": {
+        "r_within": 0.5853415113876096,
+        "r_between": 0.771367383201251,
+        "r_composite": 0.6895632725963091,
+        "n_users_within": 81,
+        "r_flat": 0.6950035793246776,
+        "mae": 0.7293983257290407
+      },
+      "arousal": {
+        "r_within": 0.4102640407544378,
+        "r_between": 0.545124645577815,
+        "r_composite": 0.48053020131795116,
+        "n_users_within": 82,
+        "r_flat": 0.5471049407221212,
+        "mae": 0.49987854896017836
+      }
+    },
+    "seen_users": {
+      "n_texts": 692,
+      "n_users": 46,
+      "valence": {
+        "r_within": 0.5756806423906791,
+        "r_between": 0.7983436711112011,
+        "r_composite": 0.7039072019121817,
+        "n_users_within": 38,
+        "r_flat": 0.7485037229758694,
+        "mae": 0.73150406556064
+      },
+      "arousal": {
+        "r_within": 0.3151192428878719,
+        "r_between": 0.4351871699904838,
+        "r_composite": 0.3767344715749895,
+        "n_users_within": 38,
+        "r_flat": 0.45364495074168065,
+        "mae": 0.5018539146353314
+      }
+    },
+    "unseen_users": {
+      "n_texts": 1045,
+      "n_users": 45,
+      "valence": {
+        "r_within": 0.5938790235244319,
+        "r_between": 0.7437360868248525,
+        "r_composite": 0.6757295898583066,
+        "n_users_within": 43,
+        "r_flat": 0.6449354530531819,
+        "mae": 0.7280039027974936
+      },
+      "arousal": {
+        "r_within": 0.49243454800283554,
+        "r_between": 0.6939935980114804,
+        "r_composite": 0.6027429384197613,
+        "n_users_within": 44,
+        "r_flat": 0.5753493311407538,
+        "mae": 0.49857045991979004
+      }
+    }
+  }
+}

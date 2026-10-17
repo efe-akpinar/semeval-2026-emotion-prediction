@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (download from the official task repository, see README)
+data/
+*.csv
+*.zip
+*.npy
+*.parquet
+
+# Model weights and checkpoints
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoint-*/
+
+# Figures written by the notebook into the working directory (curated copies live in figures/)
+/*.png
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+
+# Agent files
+.claude/
+CLAUDE.md
