@@ -5,6 +5,6 @@ seaborn
 scipy>=1.15
 scikit-learn>=1.6
 torch>=2.7
-transformers>=4.51
+transformers>=4.51,<5
 tqdm>=4.67
 ipython

@@ -135,6 +135,10 @@ semeval-2026-emotion-prediction/
 
 ## How to run
 
+**Google Colab:** [open the notebook in Colab](https://colab.research.google.com/github/efe-akpinar/semeval-2026-emotion-prediction/blob/main/semeval_2026_emotion_prediction.ipynb), select a GPU runtime (Runtime → Change runtime type → T4 GPU) and run all cells. The setup cell installs a compatible `transformers` version and downloads the training data.
+
+**Locally:**
+
 ```bash
 git clone https://github.com/efe-akpinar/semeval-2026-emotion-prediction.git
 cd semeval-2026-emotion-prediction
